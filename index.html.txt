@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xandarian Padlocks Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 40px;
+        }
+        .products img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+        .discount {
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background: #000;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Xandarian Padlocks Co.
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Padlocks</a>
+        <a href="#discount">Get 10% Off</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Xandarian Padlocks Co. – your trusted source for high-security padlocks.</p>
+    </div>
+
+    <div class="container products" id="products">
+        <h2>Our Padlocks</h2>
+        <img src="https://via.placeholder.com/200" alt="Padlock 1">
+        <img src="https://via.placeholder.com/200" alt="Padlock 2">
+        <img src="https://via.placeholder.com/200" alt="Padlock 3">
+    </div>
+
+    <div class="container discount" id="discount">
+        <h2>Get 10% Off Your First Order</h2>
+        <p>Enter your email below to receive a discount code.</p>
+        <input type="email" placeholder="Enter your email">
+        <button>Get Discount</button>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@xandarianpadlocks.com</p>
+        <p>Follow us on social media!</p>
+    </div>
+
+    <footer>
+        &copy; 2025 Xandarian Padlocks Co. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
